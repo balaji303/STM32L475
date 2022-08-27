@@ -18,3 +18,5 @@ STM's STM32L475 Board
 - [AI Notes](https://github.com/balaji303/STM32L475/blob/Dev/docs/en.STM32CubeAI_press_pres.pdf)
 - [Reference Manual](https://www.st.com/resource/en/reference_manual/rm0351-stm32l47xxx-stm32l48xxx-stm32l49xxx-and-stm32l4axxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 - [DataSheet](https://www.st.com/resource/en/datasheet/stm32l475vg.pdf)
+- [Schematics](https://github.com/balaji303/STM32L475/blob/Dev/docs/Schematics.pdf)
+- [3rd Party Training PDF](https://www.st.com/content/dam/technology-tour-2017/hands-on-training_stm32.pdf)
