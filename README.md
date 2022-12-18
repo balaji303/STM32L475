@@ -26,3 +26,6 @@ STM's STM32L475 Board
 |Functionality|Pin Number|
 |-|-|
 |LED1|PA5|
+|LED2|PB14|
+|LED3-LED4|PC9|
+|LED1|PA5|
