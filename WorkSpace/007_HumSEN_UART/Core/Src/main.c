@@ -86,6 +86,8 @@ uint8_t train5[] = "                                     II__|[] | |   I I   |\n
 uint8_t train6[] = "       @Balaji303                   |        |_|_  I I  _|\n\r";
 uint8_t train7[] = "                                   < OO----OOO   OO---OO\n\r";
 uint8_t train8[] = "**********************************************************\n\r";
+
+uint8_t rain1[] = "                                          &&&&&&&&&\n\r                                        &&&\n\r                                       &&\n\r                                      &  _____ ___________\n\r                                     II__|[] | |   I I   |\n\r       @Balaji303                   |        |_|_  I I  _|\n\r                                   < OO----OOO   OO---OO\n\r**********************************************************\n\r";
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -157,14 +159,16 @@ int main(void)
   HAL_UART_Transmit(&huart1,art11,sizeof(art11),1000);
   HAL_UART_Transmit(&huart1,art12,sizeof(art12),1000);
 
-  HAL_UART_Transmit(&huart1,train1,sizeof(train1),1000);
-  HAL_UART_Transmit(&huart1,train2,sizeof(train2),1000);
-  HAL_UART_Transmit(&huart1,train3,sizeof(train3),1000);
-  HAL_UART_Transmit(&huart1,train4,sizeof(train4),1000);
-  HAL_UART_Transmit(&huart1,train5,sizeof(train5),1000);
-  HAL_UART_Transmit(&huart1,train6,sizeof(train6),1000);
-  HAL_UART_Transmit(&huart1,train7,sizeof(train7),1000);
-  HAL_UART_Transmit(&huart1,train8,sizeof(train8),1000);
+//  HAL_UART_Transmit(&huart1,train1,sizeof(train1),1000);
+//  HAL_UART_Transmit(&huart1,train2,sizeof(train2),1000);
+//  HAL_UART_Transmit(&huart1,train3,sizeof(train3),1000);
+//  HAL_UART_Transmit(&huart1,train4,sizeof(train4),1000);
+//  HAL_UART_Transmit(&huart1,train5,sizeof(train5),1000);
+//  HAL_UART_Transmit(&huart1,train6,sizeof(train6),1000);
+//  HAL_UART_Transmit(&huart1,train7,sizeof(train7),1000);
+//  HAL_UART_Transmit(&huart1,train8,sizeof(train8),1000);
+
+    HAL_UART_Transmit(&huart1,rain1,sizeof(rain1),1000);
 
   HAL_UART_Transmit(&huart1,msg0,sizeof(msg1),1000);
   HAL_UART_Transmit(&huart1,msg1,sizeof(msg1),1000);
